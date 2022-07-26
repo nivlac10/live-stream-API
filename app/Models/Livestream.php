@@ -10,4 +10,9 @@ class Livestream extends Model
     use HasFactory;
     protected $guarded = ['id'];
     protected $dates = ['from','to'];
+
+    public function sources()
+    {
+      return $this->hasMany(URL::class, "uid", "uid");
+    }
 }

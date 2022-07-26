@@ -16,10 +16,14 @@ return new class extends Migration
         Schema::table('livestreams', function (Blueprint $table) {
             $table->integer('uid');
             $table->time('time');
+            $table->string('sports_type');
+            $table->string('home_team');
             $table->string('home_mark');
-            $table->string('home_score');
+            $table->string('away_team');
             $table->string('away_mark');
-            $table->string('away_score');
+            $table->date('start_date');
+            $table->string('status');
+            $table->string('uid',2048);
         });
     }
 

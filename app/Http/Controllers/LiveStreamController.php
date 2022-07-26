@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers;
 use App\Models\Livestream;
 use Illuminate\Support\Str;
@@ -7,28 +6,36 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Carbon\Carbon;
 use App\Models\URL;
+use Stichoza\GoogleTranslate\GoogleTranslate;
 
 class LiveStreamController extends Controller
 {
-    public function index() {
-        
-        $date = Carbon::now()->format('Y-m-d');
-        $from = Carbon::parse($date)->subDays('4');
-        $to = Carbon::parse($date)->addDays('3');
-        
-        try {
-            $streams = Livestream::all();
-        } catch (Exception $e) {
-            return response()->json([
-                'data' => [],
-                'message'=>$e->getMessage()
-            ], JsonResponse::HTTP_INTERNAL_SERVER_ERROR);
+    public function index(Request $request)
+    {
+        try
+        {
+            $sportsType = $request['sports_type'];
+            $status = $request['status'];
+            if ($status and $sportsType)
+            {
+                $streams = Livestream::where(['status' => $status, 'sports_type' => $sportsType])->get();
+            }
+            elseif ($status or $sportsType)
+            {
+                $streams = Livestream::where('status', '=', $status)->orWhere('sports_type', '=', $sportsType)->get();
+            }
+            else
+            {
+                $streams = Livestream::all();
+            }
+        }
+        catch(Exception $e)
+        {
+            return response()->json(['data' => [], 'message' => $e->getMessage() ], JsonResponse::HTTP_INTERNAL_SERVER_ERROR);
         }
 
-        return response()->json([
-            'data' => $streams,
-            'message' => 'Succeed'
-        ], JsonResponse::HTTP_OK);
+        return response()
+            ->json(['data' => $streams, 'message' => 'Succeed'], JsonResponse::HTTP_OK);
     }
     /*
     public function getSpecificRange(Request $request) {
@@ -40,150 +47,171 @@ class LiveStreamController extends Controller
     }
     */
 
+    public function storeStream(Request $request)
+    {
+        try
+        {
+            //define the variable as array
+            $stream = [];
+            //if the request is an array and valid then validate the entire payload
+            if ($request->has("data") && is_array($request->data))
+            {
+                $request->validate(['data.*.league_name' => 'required', 'data.*.status' => 'required', 'data.*.league_name' => 'required', 'data.*.start_date' => 'required', 'data.*.time' => 'required', 'data.*.home_mark' => 'required', 'data.*.away_mark' => 'required', 'data.*.sports_type' => 'required', 'data.*.away' => 'required', 'data.*.home' => 'required', 'data.*.source.*' => 'nullable']);
 
-    public function getSpecificStream($id) {
-        try {
-            $streams = Livestream::find($id);
-        } catch (Exception $e) {
-            return response()->json([
-                'data' => [],
-                'message'=>$e->getMessage()
-            ], JsonResponse::HTTP_INTERNAL_SERVER_ERROR);
+                foreach ($request->data as $data)
+                {
+                    //Generate random unique string
+                    $uid = Str::random(30);
+                    //Adding the random unique string into the payload
+                    $data['uid'] = $uid;
+                    //after validating every data, we call to handling function with the data provided.
+                    $stream[] = $this->handlesRequest($data);
+                }
+
+            }
+            //if the request body is an single object, then do this
+            else
+            {
+                $request->validate(['league_name' => 'required', 'status' => 'required', 'league_name' => 'required', 'start_date' => 'required', 'time' => 'required', 'home_mark' => 'required', 'away_mark' => 'required', 'away' => 'required', 'home' => 'required', 'sports_type' => 'required', 'source.*' => 'nullable']);
+                $data = $request->all();
+                //Generate random unique string
+                $uid = Str::random(30);
+                //Adding the random unique string into the payload
+                $data['uid'] = $uid;
+                $stream = $this->handlesRequest($data);
+            }
         }
-
-        return response()->json([
-            'data' => $streams,
-            'message' => 'Succeed'
-        ], JsonResponse::HTTP_OK);
+        catch(Exception $e)
+        {
+            return response()->json(['data' => [], 'message' => $e->getMessage() ], JsonResponse::HTTP_INTERNAL_SERVER_ERROR);
+        }
+        return response()
+            ->json(['data' => $stream, 'message' => "Stream Created Successfully"], JsonResponse::HTTP_OK);
     }
-    public function storeStream(Request $request) {
-        try {
-            //Generate random unique string
-            $uid = Str::random(30);
-            //Adding the random unique string into the payload
-            $request['uid'] = $uid;
-            //Validate the payload received from request
-            $data = $request->validate([
-                'sports_type' => 'required',
-                'league_name' => 'required',
-                'uid' => 'required',
-                'home_team' => 'required',
-                'away_team' => 'required',
-                'start_date' => 'required',
-                'status' => 'required',
-                'time' => 'required',
-                'home_mark' => 'required',
-                'home_score' => 'required',
-                'away_mark' => 'required',
-                'away_score' => 'required',
-                'source.*' => 'nullable'
-            ]);   
-            //Check if there's any stream URL in payload         
-            $check = $request['source'];
-            //if there is stream URL, we will proceed to insert the data to tbl.livestream and tbl.url
-            if($check) {
-                $streams = Livestream::create($data);
-                $sources = $request->validate([
-                    'sports_type' => 'required',
-                    'league_name' => 'required',
-                    'uid' => 'required',
-                    'home_team' => 'required',
-                    'away_team' => 'required',
-                    'start_date' => 'required',
-                    'status' => 'required',
-                    'time' => 'required',
-                    'home_mark' => 'required',
-                    'home_score' => 'required',
-                    'away_mark' => 'required',
-                    'away_score' => 'required',
-                    'source.*' => 'nullable'
-                ]);
-                foreach ($sources['source'] as $source) { 
-                    $end = URL::create([
-                        'uid' => $uid,
-                        'url' => $source['url']
-                    ]);
+
+    private function handlesRequest(array $data)
+    {
+        $translate = new GoogleTranslate('ja');
+        //Start to translate (league_name, home_team, away_team, sports_type)
+        $leagueName = $data['league_name'];
+        $homeTeam = $data['home'];
+        $awayTeam = $data['away'];
+        $sportsType = $data['sports_type'];
+
+        //Start to translate
+        $trleagueName = $translate->translate($leagueName);
+        $trhomeTeam = $translate->translate($homeTeam);
+        $trawayTeam = $translate->translate($awayTeam);
+        $trsportsType = $translate->translate($sportsType);
+
+        //Start creating all of the data by defining which column to use which data provided.
+        $stream = new LiveStream;
+        $stream->uid = $data["uid"];
+        $stream->sports_type = $trsportsType;
+        $stream->league_name = $trleagueName;
+        $stream->home_team = $trhomeTeam;
+        $stream->away_team = $trawayTeam;
+        $stream->start_date = $data["start_date"];
+        $stream->time = $data["time"];
+        $stream->home_mark = $data["home_mark"];
+        $stream->away_mark = $data["away_mark"];
+        $stream->status = $data["status"];
+        //Store the data
+        $stream->save();
+
+        //If there is an URL in the [source] payload, use this method.
+        if (filled($data["source"]))
+        {
+            foreach ($data['source'] as $source)
+            {
+                $end = new URL;
+                $end->uid = $data["uid"];
+                $end->url = $source["url"];
+                $end->save();
+            }
+        }
+        //if there is no URL in the [source] payload, use this method instead.
+        else
+        {
+            $end = new URL;
+            $end->uid = $data["uid"];
+            $end->save();
+        }
+        return $stream->load("sources");
+    }
+
+    public function updateStream(Request $request)
+    {
+        try
+        {
+            $stream = [];
+            if ($request->has("data") && is_array($request->data))
+            {
+                $request->validate(['data.*.league_name' => 'required', 'data.*.uid' => 'required', 'data.*.home_team' => 'required', 'data.*.source.*' => 'nullable']);
+                foreach ($request->data as $data)
+                {
+                    $stream[] = $this->handleUpdateRequests($data);
                 }
             }
-            //if there isn't any stream URL, we will proceed to insert the uuid in tbl.streams for reference. 
-            elseif(!$check) {
-                $streams = Livestream::create($data);
-                $basicURL = URL::create([
-                    'uid' => $uid
-                ]);
+            else
+            {
+                $request->validate(['league_name' => 'required', 'required' => 'uid', 'home_team' => 'required', 'source.*' => 'nullable']);
+                $data = $request->all();
+                $stream = $this->handleUpdateRequests($data);
             }
-        } catch (Exception $e) {
-            return response()->json([
-                'data' => [],
-                'message'=>$e->getMessage()
-            ], JsonResponse::HTTP_INTERNAL_SERVER_ERROR);
         }
-        return response()->json([
-            'data' => $data,
-            'message' => "Stream Created Successfully"
-        ], JsonResponse::HTTP_OK);
-    }    
-    
+        catch(Exception $e)
+        {
+            return response()->json(['data' => [], 'message' => $e->getMessage() ], JsonResponse::HTTP_INTERNAL_SERVER_ERROR);
+        }
+        return response()
+            ->json(['data' => $stream, 'message' => "Stream Updated Successfully"], JsonResponse::HTTP_OK);
+    }
 
-    public function updateStream(Request $request) {
-        try {
-            $uid = $request['uid'];
-            $validate = $request->validate([
-                'uid' => 'required',
-                'source.*' => 'nullable'
-            ]);
-            $uid = $request->input('uid');
-            $streams = Livestream::where('uid','=',$uid)
-                        ->update([
-                            'league_name' => $request['league_name'],
-                            'sports_type' => $request['sports_type'],
-                            'uid' => $request['uid'],
-                            'home_team' => $request['home_team'],
-                            'away_team' => $request['away_team'],
-                            'start_date' => $request['start_date'],
-                            'status' => $request['status'],
-                            'time' => $request['time'],
-                            'home_mark' => $request['home_mark'],
-                            'home_score' => $request['home_score'],
-                            'away_mark' => $request['away_mark'],
-                            'away_score' => $request['away_score'],
-                        ]);
-            if($request->filled('source')) {
+    private function handleUpdateRequests(array $data)
+    {
 
-                foreach ($request['source'] as $source) { 
-                    $end = URL::where('uid','=',$uid)->updateOrCreate([
-                        'uid' => $uid,
-                        'url' => $source['url']
-                    ]);
-                }
+        $stream = Livestream::updateOrCreate(["uid" => $data["uid"]], ["league_name" => $data["league_name"], "home_team" => $data["home_team"]]);
+
+        foreach ($data["source"] as $source)
+        {
+            URL::updateOrCreate(["uid" => $data["uid"], "url" => $source["url"]]);
+        }
+
+        return $stream;
+
+    }
+
+    public function getSpecificStream(Request $request)
+    {
+        try
+        {
+            $url=[];
+            $validate = $request->validate(['uid' => 'required']);
+            $uid = $request->only('uid');
+            $streams = Livestream::where('uid', '=', $uid)->get();
+            $url = URL::where('uid', '=', $uid)->whereNotNull('url')
+                ->get();
+            
+            
+            $data = $streams;
+            $data['source'] = $url;
+            foreach ($data['source'] as $n) {
+                $preParsed = $n['url'];
+                $parsed = str_replace("https://sandboxlivepc","https://sandboxliveh5",$preParsed);    
+                $n['mobile'] = $parsed;
             }
-        } catch (Exception $e) {
-            return response()->json([
-                'data' => [],
-                'message'=>$e->getMessage()
-            ], JsonResponse::HTTP_INTERNAL_SERVER_ERROR);
+
+            return $data;
+        }
+        catch(Exception $e)
+        {
+            return response()->json(['data' => [], 'message' => $e->getMessage() ], JsonResponse::HTTP_INTERNAL_SERVER_ERROR);
         }
 
-        return response()->json([
-            'data' => $streams,
-            'message' => 'Succeed'
-        ], JsonResponse::HTTP_OK);
+        return response()
+            ->json(['data' => $data, 'message' => 'Succeed'], JsonResponse::HTTP_OK);
     }
-    
-    public function removeStream($id) {
-        try {
-            $streams = Livestream::destroy($id);
-        } catch (Exception $e) {
-            return response()->json([
-                'data' => [],
-                'message'=>$e->getMessage()
-            ], JsonResponse::HTTP_INTERNAL_SERVER_ERROR);
-        }
 
-        return response()->json([
-            'data' => $streams,
-            'message' => 'Succeed'
-        ], JsonResponse::HTTP_OK);
-    }
-    
 }
+

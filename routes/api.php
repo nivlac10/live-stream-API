@@ -17,16 +17,16 @@ use App\Http\Controllers\LiveStreamController;
 */
 
 Route::group(['prefix'=>'stream','middleware' => ['client']], function () {
-    Route::get('/', [LiveStreamController::class, 'index']);
-    Route::get('/{id}', [LiveStreamController::class, 'getSpecificStream']);
-    //Update Stream Route
-    Route::post('/update', [LiveStreamController::class, 'updateStream']);
+    Route::post('/get_livestreams', [LiveStreamController::class, 'index']);
+    Route::post('/get_specific_stream', [LiveStreamController::class, 'getSpecificStream']);
+
     //Store Stream
-    Route::post('/store', [LiveStreamController::class, 'storeStream']);
-    Route::put('/{id}', [LiveStreamController::class, 'updateStream']);
-    Route::delete('/{id}', [LiveStreamController::class, 'removeStream']);
+    Route::post('/upload_livestreams', [LiveStreamController::class, 'storeStream']);
+    //Update Stream
+    Route::post('/update_livestreams', [LiveStreamController::class, 'updateStream']);
 });
 
-Route::post('/new', [LiveStreamController::class, 'getSpecificRange']);
-
+Route::post('/translate', [LiveStreamController::class, 'testTranslate']);
+Route::post('/teststore', [LiveStreamController::class, 'storeStream']);
+Route::post('/testupdate', [LiveStreamController::class, 'updateStream']);
 
