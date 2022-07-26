@@ -13,7 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::table('livestreams', function (Blueprint $table) {
+        Schema::create('livestreams', function (Blueprint $table) {
             $table->id();
             $table->string('sports_type');
             $table->string('league_name');
