@@ -14,16 +14,18 @@ return new class extends Migration
     public function up()
     {
         Schema::table('livestreams', function (Blueprint $table) {
-            $table->integer('uid');
-            $table->time('time');
+            $table->id();
             $table->string('sports_type');
+            $table->string('league_name');
             $table->string('home_team');
             $table->string('home_mark');
             $table->string('away_team');
             $table->string('away_mark');
             $table->date('start_date');
+            $table->time('time');
             $table->string('status');
             $table->string('uid',2048);
+            $table->timestamps();
         });
     }
 
