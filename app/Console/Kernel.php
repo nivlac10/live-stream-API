@@ -15,7 +15,8 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        // $schedule->command('inspire')->hourly();
+	    $schedule->command('update:streamStatus')->everyMinute()->appendOutputTo('scheduler.log');
+	    $schedule->command('stop:livestream')->everyMinute()->appendOutputTo('scheduler.log');
     }
 
     /**

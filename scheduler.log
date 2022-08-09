@@ -1,0 +1,3404 @@
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/live-stream/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $uid
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142▕             restore_error_handler();
+    143▕             if (!is_resource($stream)) {
+    144▕                 $this->stream = null;
+    145▕ 
+  ➜ 146▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147▕             }
+    148▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149▕             $this->stream = $stream;
+    150▕         }
+
+      [2m+10 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}()

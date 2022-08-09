@@ -16,17 +16,14 @@ use App\Http\Controllers\LiveStreamController;
 |
 */
 
-Route::group(['prefix'=>'stream','middleware' => ['client']], function () {
-    Route::post('/get_livestreams', [LiveStreamController::class, 'index']);
-    Route::post('/get_specific_stream', [LiveStreamController::class, 'getSpecificStream']);
-
+Route::group(['prefix'=>'stream','middleware' => ['client','apilogger']], function () {
     //Store Stream
     Route::post('/upload_livestreams', [LiveStreamController::class, 'storeStream']);
     //Update Stream
     Route::post('/update_livestreams', [LiveStreamController::class, 'updateStream']);
 });
 
-Route::post('/translate', [LiveStreamController::class, 'testTranslate']);
-Route::post('/teststore', [LiveStreamController::class, 'storeStream']);
-Route::post('/testupdate', [LiveStreamController::class, 'updateStream']);
-
+Route::group(['middleware' => ['apilogger']], function(){
+	Route::post('/get_livestreams', [LiveStreamController::class, 'index']);
+	Route::post('/get_specific_stream', [LiveStreamController::class, 'getSpecificStream']);
+});

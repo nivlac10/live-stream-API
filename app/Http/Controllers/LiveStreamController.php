@@ -4,6 +4,7 @@ use App\Models\Livestream;
 use Illuminate\Support\Str;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
+use App\Models\StreamDump;
 use Carbon\Carbon;
 use App\Models\URL;
 use Stichoza\GoogleTranslate\GoogleTranslate;
@@ -13,20 +14,51 @@ class LiveStreamController extends Controller
     public function index(Request $request)
     {
         try
-        {
+	{
+	    $today = Carbon::now(); 
+            $from = $today->format('Y-m-d');
+            $to = Carbon::now()->addDay();
             $sportsType = $request['sports_type'];
             $status = $request['status'];
             if ($status and $sportsType)
             {
-                $streams = Livestream::where(['status' => $status, 'sports_type' => $sportsType])->get();
+                $streams = Livestream::whereBetween('start_date', [$from,$to])->where(['status' => $status, 'sports_type' => $sportsType])->orderBy('start_date', 'ASC')->orderBy('time', 'ASC')->get();
+                $hour = date('H');
+                if($hour < 3){
+                    $prev_date = date("Y-m-d", strtotime('-1 days'));
+                    $streams_prev = Livestream::where('start_date','=', $prev_date)->where('time','>','20:40:00')->where(['status' => $status, 'sports_type' => $sportsType])->orderBy('start_date', 'ASC')->orderBy('time', 'ASC')->get();
+                    $streams = $streams_prev->merge($streams);
+                }
             }
-            elseif ($status or $sportsType)
+            elseif ($status)
             {
-                $streams = Livestream::where('status', '=', $status)->orWhere('sports_type', '=', $sportsType)->get();
+                   $streams = Livestream::whereBetween('start_date', [$from,$to])->where('status', '=', $status)->orderBy('start_date', 'ASC')->orderBy('time', 'ASC')->get();
+                $hour = date('H');
+                if($hour < 3){
+                    $prev_date = date("Y-m-d", strtotime('-1 days'));
+                    $streams_prev = Livestream::where('start_date','=', $prev_date)->where('time','>', '20:40:00')->where('status','=', $status)->orderBy('start_date', 'ASC')->orderBy('time', 'ASC')->get();
+                    $streams = $streams_prev->merge($streams);
+                }
+	    }
+	    elseif($sportsType)
+	    {
+                 $streams = Livestream::whereBetween('start_date', [$from,$to])->where('sports_type', '=', $sportsType)->orderBy('start_date', 'ASC')->orderBy('time', 'ASC')->get();
+                $hour = date('H');
+                if($hour < 3){
+                    $prev_date = date("Y-m-d", strtotime('-1 days'));
+                    $streams_prev = Livestream::where('start_date','=', $prev_date)->where('time','>', '20:40:00')->where('sports_type', '=', $sportsType)->orderBy('start_date', 'ASC')->orderBy('time', 'ASC')->get();
+                    $streams = $streams_prev->merge($streams);
+                }
             }
             else
             {
-                $streams = Livestream::all();
+               $streams = Livestream::whereBetween('start_date', [$from,$to])->orderBy('start_date', 'ASC')->orderBy('time', 'ASC')->get();
+                $hour = date('H');
+                if($hour < 3){
+                    $prev_date = date("Y-m-d", strtotime('-1 days'));
+                    $streams_prev = Livestream::where('start_date','=', $prev_date)->where('time','>', '20:40:00')->orderBy('start_date', 'ASC')->orderBy('time', 'ASC')->get();
+                    $streams = $streams_prev->merge($streams);
+                }
             }
         }
         catch(Exception $e)
@@ -37,15 +69,6 @@ class LiveStreamController extends Controller
         return response()
             ->json(['data' => $streams, 'message' => 'Succeed'], JsonResponse::HTTP_OK);
     }
-    /*
-    public function getSpecificRange(Request $request) {
-        if($request->start_date && $request->end_date) {
-            echo "Hi";
-        } else {
-            echo "Nope";
-        }
-    }
-    */
 
     public function storeStream(Request $request)
     {
@@ -63,13 +86,24 @@ class LiveStreamController extends Controller
                     //Generate random unique string
                     $uid = Str::random(30);
                     //Adding the random unique string into the payload
-                    $data['uid'] = $uid;
-                    //after validating every data, we call to handling function with the data provided.
-                    $stream[] = $this->handlesRequest($data);
+		    $data['uid'] = $uid;
+		    $dump = StreamDump::create([
+		  	'league_name' => $data['league_name'],
+                        'home_team' => $data['home'],
+                        'away_team' => $data['away'],
+                        'status' => $data['status'],
+                        'start_date' => $data['start_date'],
+                        'time' => $data['time'],
+                        'home_mark' => $data['home_mark'],
+                        'away_mark' => $data['away_mark'],
+                        'sports_type' => $data['sports_type'],
+                        'uid' => $data['uid']
+		    ]);
+		    $stream[] = $this->handlesRequest($data);
                 }
 
             }
-            //if the request body is an single object, then do this
+            //if the request body is an single object, then do this. NOTE: This is not maintained properly as Crawler will always send in an array format regardless
             else
             {
                 $request->validate(['league_name' => 'required', 'status' => 'required', 'league_name' => 'required', 'start_date' => 'required', 'time' => 'required', 'home_mark' => 'required', 'away_mark' => 'required', 'away' => 'required', 'home' => 'required', 'sports_type' => 'required', 'source.*' => 'nullable']);
@@ -107,7 +141,8 @@ class LiveStreamController extends Controller
         //Start creating all of the data by defining which column to use which data provided.
         $stream = new LiveStream;
         $stream->uid = $data["uid"];
-        $stream->sports_type = $trsportsType;
+	$stream->sports_type = $data['sports_type'];
+	$stream->jp_sports_type = $trsportsType;
         $stream->league_name = $trleagueName;
         $stream->home_team = $trhomeTeam;
         $stream->away_team = $trawayTeam;
@@ -147,7 +182,7 @@ class LiveStreamController extends Controller
             $stream = [];
             if ($request->has("data") && is_array($request->data))
             {
-                $request->validate(['data.*.league_name' => 'required', 'data.*.uid' => 'required', 'data.*.home_team' => 'required', 'data.*.source.*' => 'nullable']);
+                $request->validate(['data.*.uid' => 'required', 'data.*.source.*' => 'nullable']);
                 foreach ($request->data as $data)
                 {
                     $stream[] = $this->handleUpdateRequests($data);
@@ -155,7 +190,7 @@ class LiveStreamController extends Controller
             }
             else
             {
-                $request->validate(['league_name' => 'required', 'required' => 'uid', 'home_team' => 'required', 'source.*' => 'nullable']);
+                $request->validate([ 'required' => 'uid', 'source.*' => 'nullable']);
                 $data = $request->all();
                 $stream = $this->handleUpdateRequests($data);
             }
@@ -171,14 +206,14 @@ class LiveStreamController extends Controller
     private function handleUpdateRequests(array $data)
     {
 
-        $stream = Livestream::updateOrCreate(["uid" => $data["uid"]], ["league_name" => $data["league_name"], "home_team" => $data["home_team"]]);
+       // $stream = Livestream::updateOrCreate(["uid" => $data["uid"]], ["league_name" => $data["league_name"], "home_team" => $data["home_team"]]);
 
         foreach ($data["source"] as $source)
         {
             URL::updateOrCreate(["uid" => $data["uid"], "url" => $source["url"]]);
         }
 
-        return $stream;
+        return $data;
 
     }
 

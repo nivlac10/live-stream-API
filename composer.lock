@@ -4,8 +4,58 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c3eafa806a2b9f79c5a6d74db2d61d54",
+    "content-hash": "0a1b2afba599925b5031f3246b74a06a",
     "packages": [
+        {
+            "name": "awt/apilogger",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aungwinthant/apilogger.git",
+                "reference": "98b5279a037ea8507a5736a6ce0aabf48a566c3c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aungwinthant/apilogger/zipball/98b5279a037ea8507a5736a6ce0aabf48a566c3c",
+                "reference": "98b5279a037ea8507a5736a6ce0aabf48a566c3c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-libxml": "*",
+                "php": "^8.0|^8.1"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "AWT\\Providers\\ApiLogServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "AWT\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "aung win thant",
+                    "email": "agwinthant@gmail.com"
+                }
+            ],
+            "description": "Small laravel package for viewing api logs which can be used in debugging.",
+            "support": {
+                "issues": "https://github.com/aungwinthant/apilogger/issues",
+                "source": "https://github.com/aungwinthant/apilogger/tree/master"
+            },
+            "time": "2022-07-07T02:56:56+00:00"
+        },
         {
             "name": "brick/math",
             "version": "0.9.3",
@@ -8988,7 +9038,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "awt/apilogger": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
