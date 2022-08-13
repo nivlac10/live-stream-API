@@ -31,15 +31,15 @@ class stopLivestream extends Command
     {
 	    $today = Carbon::now();
 	    $currentDate = $today->format('Y-m-d');
-	    $hour = date('H');
-
-        if($hour <  3){
-
+	    $hour = date('H:i');
+        $expiredTime = "03:20:00"; //Define the time of the expiry which is 3:20am
+        $converted = date('H:i',strtotime($expiredTime));
+        if($hour <  $converted){
             $previousDate = date('Y-m-d',strtotime("-1 days"));
-            $time = date('H:i:s',time() - 10800);
+            $time = date('H:i:s',time() - 12000);
             $expired = Livestream::where('start_date','=',$previousDate)->where('time','<',$time)->update(['status' => 'ended']);
         } else {
-	$expired = Livestream::where('start_date','=',$currentDate)->where('time','<',Carbon::now()->addMinutes(-200))->update(['status' => 'ended']);
-	}
+	        $expired = Livestream::where('start_date','=',$currentDate)->where('time','<',Carbon::now()->addMinutes(-200))->update(['status' => 'ended']);
+	    }
     }
 }

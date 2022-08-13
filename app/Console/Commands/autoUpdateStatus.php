@@ -35,7 +35,7 @@ class autoUpdateStatus extends Command
 	    $checkURL = [];
 	    //Check if there is any stream links with URL then get their UID
 	    $checkURL = URL::select('uid')->where('url','!=',null)->get();
-            //illiterate the data obtained to pass over to query 
+        //illiterate the data obtained to pass over to query 
 	    foreach ($checkURL as $u) {
 	    	$uid[] = $u['uid'];
 	    }
