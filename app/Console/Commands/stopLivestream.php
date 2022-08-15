@@ -32,7 +32,7 @@ class stopLivestream extends Command
 	    $today = Carbon::now();
 	    $currentDate = $today->format('Y-m-d');
 	    $hour = date('H:i');
-        $expiredTime = "03:20:00"; //Define the time of the expiry which is 3:20am
+        $expiredTime = "03:25:00"; //Define the time of the expiry which is 3:20a.m (3.25 to prevent the delay causes)
         $converted = date('H:i',strtotime($expiredTime));
         if($hour <  $converted){
             $previousDate = date('Y-m-d',strtotime("-1 days"));
