@@ -61,27 +61,27 @@ class LiveStreamController extends Controller
             }
             elseif ($sportsType)
             {
-                $streams = Livestream::whereBetween('start_date', [$from, $to])->where('sports_type', '=', $sportsType)->orderBy('start_date', 'ASC')
+                $streams = Livestream::whereBetween('start_date', [$from, $to])->whereIn('status',['notStarted','inPlay'])->where('sports_type', '=', $sportsType)->orderBy('start_date', 'ASC')
                     ->orderBy('time', 'ASC')
                     ->get();
                 $hour = date('H');
                 if($hour == 0){
                     $prev_date = date("Y-m-d", strtotime('-1 days'));
-                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time','>','20:40:00')->where('sports_type', '=', $sportsType)->orderBy('start_date', 'ASC')->orderBy('time', 'ASC')->get();
+                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time','>','20:40:00')->where('sports_type', '=', $sportsType)->whereIn('status',['notStarted','inPlay'])->orderBy('start_date', 'ASC')->orderBy('time', 'ASC')->get();
                     $streams = $streams_prev->merge($streams);
                 } elseif ($hour == 1) {
                     $prev_date = date("Y-m-d", strtotime('-1 days'));
-                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time','>','21:40:00')->where('sports_type', '=', $sportsType)->orderBy('start_date', 'ASC')->orderBy('time', 'ASC')->get();
+                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time','>','21:40:00')->where('sports_type', '=', $sportsType)->whereIn('status',['notStarted','inPlay'])->orderBy('start_date', 'ASC')->orderBy('time', 'ASC')->get();
                     $streams = $streams_prev->merge($streams);
                 } elseif ($hour == 2) {
                     $prev_date = date("Y-m-d", strtotime('-1 days'));
-                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time','>','22:40:00')->where('sports_type', '=', $sportsType)->orderBy('start_date', 'ASC')->orderBy('time', 'ASC')->get();
+                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time','>','22:40:00')->where('sports_type', '=', $sportsType)->whereIn('status',['notStarted','inPlay'])->orderBy('start_date', 'ASC')->orderBy('time', 'ASC')->get();
                     $streams = $streams_prev->merge($streams);
                 }
             }
             else
             {
-                $streams = Livestream::whereBetween('start_date', [$from, $to])->orderBy('start_date', 'ASC')
+                $streams = Livestream::whereBetween('start_date', [$from, $to])->whereIn('status',['notStarted','inPlay'])->orderBy('start_date', 'ASC')
                     ->orderBy('time', 'ASC')
                     ->get();
                 $hour = date('H');
@@ -91,11 +91,11 @@ class LiveStreamController extends Controller
                     $streams = $streams_prev->merge($streams);
                 } elseif ($hour == 1) {
                     $prev_date = date("Y-m-d", strtotime('-1 days'));
-                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time','>','21:40:00')->orderBy('start_date', 'ASC')->orderBy('time', 'ASC')->get();
+                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time','>','21:40:00')->whereIn('status',['notStarted','inPlay'])->orderBy('start_date', 'ASC')->orderBy('time', 'ASC')->get();
                     $streams = $streams_prev->merge($streams);
                 } elseif ($hour == 2) {
                     $prev_date = date("Y-m-d", strtotime('-1 days'));
-                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time','>','22:40:00')->orderBy('start_date', 'ASC')->orderBy('time', 'ASC')->get();
+                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time','>','22:40:00')->whereIn('status',['notStarted','inPlay'])->orderBy('start_date', 'ASC')->orderBy('time', 'ASC')->get();
                     $streams = $streams_prev->merge($streams);
                 }
             }
@@ -153,59 +153,96 @@ class LiveStreamController extends Controller
 
     private function handlesRequest(array $data)
     {
-        //Checking the request data with the dictionary table and find match.
+       //Checking the request data with the dictionary table and find match.
         $sports_type = dictST::where('OB','=', $data['sports_type'])->pluck('actual_word');
         $league_name =  dictLN::where('OB','=',$data['league_name'])->pluck('actual_word');
         $home_team = dictFT::where('OB','=',$data['home'])->pluck('actual_word');
         $away_team = dictFT::where('OB','=',$data['away'])->pluck('actual_word');
-        $translate = new GoogleTranslate('ja');
-        //Start to translate (league_name, home_team, away_team, sports_type)
-        $leagueName = $data['league_name'];
-        $homeTeam = $data['home'];
-        $awayTeam = $data['away'];
-        $sportsType = $data['sports_type'];
-
-        //Start to translate
-        $trleagueName = $translate->translate($leagueName);
-        $trhomeTeam = $translate->translate($homeTeam);
-        $trawayTeam = $translate->translate($awayTeam);
-        $trsportsType = $translate->translate($sportsType);
-
-        //Start creating all of the data by defining which column to use which data provided.
-        $stream = new LiveStream;
-        $stream->uid = $data["uid"];
-        $stream->sports_type = $data['sports_type'];
-        $stream->jp_sports_type = $trsportsType;
-        $stream->league_name = $trleagueName;
-        $stream->home_team = $trhomeTeam;
-        $stream->away_team = $trawayTeam;
-        $stream->start_date = $data["start_date"];
-        $stream->time = $data["time"];
-        $stream->home_mark = $data["home_mark"];
-        $stream->away_mark = $data["away_mark"];
-        $stream->status = $data["status"];
-        //Store the data
-        $stream->save();
-
-        //If there is an URL in the [source] payload, use this method.
-        if (filled($data["source"]))
+        
+        //Check if the scrape parameter is OB, and then check if the data matches the dictionary if match then execute this.
+        if($data['scrape'] == "OB" && !empty($sports_type) && !TRIM($league_name) === '[]' && !TRIM($home_team) === '[]' && !TRIM($away_team) === '[]') 
         {
-            foreach ($data['source'] as $source)
+            $stream = new LiveStream;
+            $stream->uid = $data["uid"];
+            $stream->sports_type = $data['sports_type'];
+            $stream->jp_sports_type = $sports_type[0];
+            $stream->league_name = $league_name[0];
+            $stream->home_team = $home_team[0];
+            $stream->away_team = $away_team[0];
+            $stream->start_date = $data["start_date"];
+            $stream->time = $data["time"];
+            $stream->home_mark = $data["home_mark"];
+            $stream->away_mark = $data["away_mark"];
+            $stream->status = $data["status"];
+            $stream->save();
+                //If there is an URL in the [source] payload, use this method.
+                if (filled($data["source"]))
+                {
+                    foreach ($data['source'] as $source)
+                    {
+                        $end = new URL;
+                        $end->uid = $data["uid"];
+                        $end->url = $source["url"];
+                        $end->save();
+                    }
+                }
+                //if there is no URL in the [source] payload, use this method instead.
+                else
+                    {
+                        $end = new URL;
+                        $end->uid = $data["uid"];
+                        $end->save();
+                    }
+            return $stream->load("sources");
+        } 
+        //if there is no scrape parameter or there are no match on the dictionary table then execute this.
+        else 
             {
-                $end = new URL;
-                $end->uid = $data["uid"];
-                $end->url = $source["url"];
-                $end->save();
+                $translate = new GoogleTranslate('ja');
+                //Start to translate (league_name, home_team, away_team, sports_type)
+                $leagueName = $data['league_name'];
+                $homeTeam = $data['home'];
+                $awayTeam = $data['away'];
+                $sportsType = $data['sports_type'];
+                //Start to translate
+                $trleagueName = $translate->translate($leagueName);
+                $trhomeTeam = $translate->translate($homeTeam);
+                $trawayTeam = $translate->translate($awayTeam);
+                $trsportsType = $translate->translate($sportsType);
+                //Start creating all of the data by defining which column to use which data provided.
+                $stream = new LiveStream;
+                $stream->uid = $data["uid"];
+                $stream->sports_type = $data['sports_type'];
+                $stream->jp_sports_type = $trsportsType;
+                $stream->league_name = $trleagueName;
+                $stream->home_team = $trhomeTeam;
+                $stream->away_team = $trawayTeam;
+                $stream->start_date = $data["start_date"];
+                $stream->time = $data["time"];
+                $stream->home_mark = $data["home_mark"];
+                $stream->away_mark = $data["away_mark"];
+                $stream->status = $data["status"];
+                $stream->save();
+                //If there is an URL in the [source] payload, use this method.
+                if (filled($data["source"]))
+                {
+                    foreach ($data['source'] as $source)
+                    {
+                        $end = new URL;
+                        $end->uid = $data["uid"];
+                        $end->url = $source["url"];
+                        $end->save();
+                    }
+                }
+                //if there is no URL in the [source] payload, use this method instead.
+                else
+                    {
+                        $end = new URL;
+                        $end->uid = $data["uid"];
+                        $end->save();
+                    }
+                return $stream->load("sources");
             }
-        }
-        //if there is no URL in the [source] payload, use this method instead.
-        else
-        {
-            $end = new URL;
-            $end->uid = $data["uid"];
-            $end->save();
-        }
-        return $stream->load("sources");
     }
 
     public function updateStream(Request $request)
