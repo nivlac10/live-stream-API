@@ -29,7 +29,7 @@ class stopLivestream extends Command
      */
     public function handle()
     {
-	    $today = Carbon::now();
+	   $today = Carbon::now();
 	    $currentDate = $today->format('Y-m-d');
 	    $hour = date('H:i');
         $expiredTime = "03:25:00"; //Define the time of the expiry which is 3:20a.m (3.25 to prevent the delay causes)
@@ -41,5 +41,10 @@ class stopLivestream extends Command
         } else {
 	        $expired = Livestream::where('start_date','=',$currentDate)->where('time','<',Carbon::now()->addMinutes(-200))->update(['status' => 'ended']);
 	    }
+        $timeN = "00:16:00";
+        $convertedN = date('H:i',strtotime($timeN));
+        if($hour > $convertedN) {
+            $noURL = Livestream::where('start_date','=',$currentDate)->where('time','<',Carbon::now()->addMinutes(-15))->where('status','=','notStarted')->update(['status' => 'ended']);
+        }
     }
 }
