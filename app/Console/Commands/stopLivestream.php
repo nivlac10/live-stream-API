@@ -41,10 +41,5 @@ class stopLivestream extends Command
         } else {
 	        $expired = Livestream::where('start_date','=',$currentDate)->where('time','<',Carbon::now()->addMinutes(-200))->update(['status' => 'ended']);
 	    }
-        $timeN = "00:16:00";
-        $convertedN = date('H:i',strtotime($timeN));
-        if($hour > $convertedN) {
-            $noURL = Livestream::where('start_date','=',$currentDate)->where('time','<',Carbon::now()->addMinutes(-15))->where('status','=','notStarted')->update(['status' => 'ended']);
-        }
     }
 }
