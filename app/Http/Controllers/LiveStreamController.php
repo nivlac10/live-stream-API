@@ -278,6 +278,8 @@ class LiveStreamController extends Controller
     }
 
     public function testCRON() {
+        $today = Carbon::now();
+	    $currentDate = $today->format('Y-m-d');
         $hour = date('H:i');
         //Update the livestream status to ended when there is no URL pass 15 minutes.
         $timeN = "00:16:00";
