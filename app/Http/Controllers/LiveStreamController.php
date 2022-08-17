@@ -235,15 +235,21 @@ class LiveStreamController extends Controller
 
     private function handleUpdateRequests(array $data)
     {
-
-        // $stream = Livestream::updateOrCreate(["uid" => $data["uid"]], ["league_name" => $data["league_name"], "home_team" => $data["home_team"]]);
-        foreach ($data["source"] as $source)
-        {
-            URL::updateOrCreate(["uid" => $data["uid"], "url" => $source["url"]]);
+        //Check if there is a status inside the data array if no do this or that.
+        if(!$data['status']) {
+            foreach ($data["source"] as $source)
+            {
+                URL::updateOrCreate(["uid" => $data["uid"], "url" => $source["url"]]);
+            }
+            
+        } elseif($data['status']) {
+            $stream = Livestream::where("uid",'=',$data['uid'])->update(["status" => $data["status"]]);
+            foreach ($data["source"] as $source)
+            {
+                URL::updateOrCreate(["uid" => $data["uid"], "url" => $source["url"]]);
+            }
         }
-
         return $data;
-
     }
 
     public function getSpecificStream(Request $request)
