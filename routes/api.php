@@ -27,3 +27,6 @@ Route::group(['middleware' => ['apilogger']], function(){
 	Route::post('/get_livestreams', [LiveStreamController::class, 'index']);
 	Route::post('/get_specific_stream', [LiveStreamController::class, 'getSpecificStream']);
 });
+
+//Test CRON
+Route::post('/test_cron',[LiveStreamController::class, 'getSpecificStream']);
