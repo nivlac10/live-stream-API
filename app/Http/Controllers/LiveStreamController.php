@@ -395,23 +395,5 @@ class LiveStreamController extends Controller
         return response()
             ->json(['data' => $data, 'message' => 'Succeed'], JsonResponse::HTTP_OK);
     }
-
-    public function testCRON()
-    {
-        $today = Carbon::now();
-        $currentDate = $today->format('Y-m-d');
-        $hour = date('H:i');
-        //Update the livestream status to ended when there is no URL pass 15 minutes.
-        $timeN = "00:16:00";
-        $convertedN = date('H:i', strtotime($timeN));
-        if ($hour > $convertedN)
-        {
-            $noURL = Livestream::where('start_date', '=', $currentDate)->where('time', '<', Carbon::now()
-                ->addMinutes(-15))
-                ->where('status', '=', 'notStarted')
-                ->update(['status' => 'ended']);
-        }
-    }
-
 }
 
