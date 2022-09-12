@@ -194,7 +194,7 @@ class LiveStreamController extends Controller
                     $uid = Str::random(30);
                     //Adding the random unique string into the payload
                     $data['uid'] = $uid;
-                    $dump = StreamDump::create(['league_name' => $data['league_name'], 'home_team' => $data['home'], 'away_team' => $data['away'], 'status' => $data['status'], 'start_date' => $data['start_date'], 'time' => $data['time'], 'home_mark' => $data['home_mark'], 'away_mark' => $data['away_mark'], 'sports_type' => $data['sports_type'], 'uid' => $data['uid']]);
+                    $dump = StreamDump::create(['league_name' => $data['league_name'], 'home_team' => $data['home'], 'away_team' => $data['away'], 'status' => $data['status'], 'start_date' => $data['start_date'], 'time' => $data['time'], 'home_mark' => $data['home_mark'], 'away_mark' => $data['away_mark'], 'sports_type' => $data['sports_type'], 'league_mark' => $data['league_mark'], 'uid' => $data['uid']]);
                     $stream[] = $this->handlesRequest($data);
                 }
 
@@ -254,6 +254,7 @@ class LiveStreamController extends Controller
             $stream->home_mark = $data["home_mark"];
             $stream->away_mark = $data["away_mark"];
             $stream->status = $data["status"];
+            $stream->league_mark = $data["league_mark"];
             $stream->save();
 
             //If there is an URL in the [source] payload, use this method.
@@ -291,6 +292,7 @@ class LiveStreamController extends Controller
             $stream->home_mark = $data["home_mark"];
             $stream->away_mark = $data["away_mark"];
             $stream->status = $data["status"];
+            $stream->league_mark = $data["league_mark"];
             $stream->save();
 
             //If there is an URL in the [source] payload, use this method.
