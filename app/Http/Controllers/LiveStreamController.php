@@ -32,7 +32,7 @@ class LiveStreamController extends Controller
                 if ($hour == 0)
                 {
                     $prev_date = date("Y-m-d", strtotime('-1 days'));
-                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time', '>', '20:40:00')
+                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time', '>', '21:30:00')
                         ->where(['status' => $status, 'sports_type' => $sportsType])->orderBy('start_date', 'ASC')
                         ->orderBy('time', 'ASC')
                         ->get();
@@ -41,7 +41,7 @@ class LiveStreamController extends Controller
                 elseif ($hour == 1)
                 {
                     $prev_date = date("Y-m-d", strtotime('-1 days'));
-                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time', '>', '21:40:00')
+                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time', '>', '22:30:00')
                         ->where(['status' => $status, 'sports_type' => $sportsType])->orderBy('start_date', 'ASC')
                         ->orderBy('time', 'ASC')
                         ->get();
@@ -50,7 +50,7 @@ class LiveStreamController extends Controller
                 elseif ($hour == 2)
                 {
                     $prev_date = date("Y-m-d", strtotime('-1 days'));
-                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time', '>', '22:40:00')
+                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time', '>', '23:30:00')
                         ->where(['status' => $status, 'sports_type' => $sportsType])->orderBy('start_date', 'ASC')
                         ->orderBy('time', 'ASC')
                         ->get();
@@ -66,7 +66,7 @@ class LiveStreamController extends Controller
                 if ($hour == 0)
                 {
                     $prev_date = date("Y-m-d", strtotime('-1 days'));
-                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time', '>', '20:40:00')
+                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time', '>', '21:30:00')
                         ->where('status', '=', $status)->orderBy('start_date', 'ASC')
                         ->orderBy('time', 'ASC')
                         ->get();
@@ -75,7 +75,7 @@ class LiveStreamController extends Controller
                 elseif ($hour == 1)
                 {
                     $prev_date = date("Y-m-d", strtotime('-1 days'));
-                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time', '>', '21:40:00')
+                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time', '>', '22:30:00')
                         ->where('status', '=', $status)->orderBy('start_date', 'ASC')
                         ->orderBy('time', 'ASC')
                         ->get();
@@ -84,7 +84,7 @@ class LiveStreamController extends Controller
                 elseif ($hour == 2)
                 {
                     $prev_date = date("Y-m-d", strtotime('-1 days'));
-                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time', '>', '22:40:00')
+                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time', '>', '23:30:00')
                         ->where('status', '=', $status)->orderBy('start_date', 'ASC')
                         ->orderBy('time', 'ASC')
                         ->get();
@@ -101,7 +101,7 @@ class LiveStreamController extends Controller
                 if ($hour == 0)
                 {
                     $prev_date = date("Y-m-d", strtotime('-1 days'));
-                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time', '>', '20:40:00')
+                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time', '>', '21:30:00')
                         ->where('sports_type', '=', $sportsType)->whereIn('status', ['notStarted', 'inPlay'])
                         ->orderBy('start_date', 'ASC')
                         ->orderBy('time', 'ASC')
@@ -111,7 +111,7 @@ class LiveStreamController extends Controller
                 elseif ($hour == 1)
                 {
                     $prev_date = date("Y-m-d", strtotime('-1 days'));
-                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time', '>', '21:40:00')
+                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time', '>', '22:30:00')
                         ->where('sports_type', '=', $sportsType)->whereIn('status', ['notStarted', 'inPlay'])
                         ->orderBy('start_date', 'ASC')
                         ->orderBy('time', 'ASC')
@@ -121,7 +121,7 @@ class LiveStreamController extends Controller
                 elseif ($hour == 2)
                 {
                     $prev_date = date("Y-m-d", strtotime('-1 days'));
-                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time', '>', '22:40:00')
+                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time', '>', '23:30:00')
                         ->where('sports_type', '=', $sportsType)->whereIn('status', ['notStarted', 'inPlay'])
                         ->orderBy('start_date', 'ASC')
                         ->orderBy('time', 'ASC')
@@ -139,7 +139,7 @@ class LiveStreamController extends Controller
                 if ($hour == 0)
                 {
                     $prev_date = date("Y-m-d", strtotime('-1 days'));
-                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time', '>', '20:40:00')
+                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time', '>', '21:30:00')
                         ->whereIn('status', ['notStarted', 'inPlay'])
                         ->orderBy('start_date', 'ASC')
                         ->orderBy('time', 'ASC')
@@ -149,7 +149,7 @@ class LiveStreamController extends Controller
                 elseif ($hour == 1)
                 {
                     $prev_date = date("Y-m-d", strtotime('-1 days'));
-                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time', '>', '21:40:00')
+                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time', '>', '22:30:00')
                         ->whereIn('status', ['notStarted', 'inPlay'])
                         ->orderBy('start_date', 'ASC')
                         ->orderBy('time', 'ASC')
@@ -159,7 +159,7 @@ class LiveStreamController extends Controller
                 elseif ($hour == 2)
                 {
                     $prev_date = date("Y-m-d", strtotime('-1 days'));
-                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time', '>', '22:40:00')
+                    $streams_prev = Livestream::where('start_date', $prev_date)->where('time', '>', '23:30:00')
                         ->whereIn('status', ['notStarted', 'inPlay'])
                         ->orderBy('start_date', 'ASC')
                         ->orderBy('time', 'ASC')
