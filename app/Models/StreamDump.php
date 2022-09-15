@@ -17,6 +17,7 @@ class StreamDump extends Model
         'home_team',
         'away_team',
         'home_mark',
+        'league_mark',
         'away_mark',
         'start_date',
         'status',
